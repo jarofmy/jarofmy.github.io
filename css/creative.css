@@ -62,9 +62,6 @@ p {
     height: 100%;
 }
 .bg-primary {
-  /*background-image: url(http://scontent-ort2-1.cdninstagram.com/t51.2885-15/e35/17332357_278578815905360_5981914133564489728_n.jpg);*/
-  /*background-image: url(https://media.giphy.com/media/l1KVbJFPhfZpG02Mo/source.gif); high quality*/
-  /*background-image: url(https://media.giphy.com/media/l1KVbsdPukTj8tkvS/source.gif);*/
   background-image: url(http://image.vsco.co/1/54d92a5a8e1c22223220/58cdfb7c214e333b1db630c4/vsco_031817.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,7 +102,7 @@ p {
   width: 100%;
   padding: 10px;
   background-color: rgba(199, 199, 209, 0.2);
-  text-shadow: 1px 1px 2px black; 
+  text-shadow: 1px 1px 2px black;
 }
 .shadow-heading {
   text-shadow: 1px 1px 2px black;
@@ -208,18 +205,16 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
+  background-image: url(../img/jaro_weggis.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/jaro_weggis.jpg");
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  /*background-position: center;*/
-  /*background-image: url('https://media.giphy.com/media/l4FGGGSFvhwgbfbJS/source.gif');*/
-  /*background-image: url('https://media.giphy.com/media/3oKIPuQ5Wi9JZvEqfC/giphy.gif');*/
-  background-image: url(http://image.vsco.co/1/54d92a5a8e1c22223220/58cdfba6214e333b1db630c5/vsco_031817.jpg);
-  background-repeat: no-repeat;
   text-align: center;
   color: white;
-  background-position: right 0px bottom 0px;
+  background-position: center;
   background-attachment: fixed;
 }
 header .header-content {
@@ -479,4 +474,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.RAWidget {
+  margin-left: auto;
+  margin-right: auto;
 }
